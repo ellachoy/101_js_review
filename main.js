@@ -47,3 +47,41 @@ function surprise(operator){
 }
 surprise(add);
 // console.log(surprise);
+console.clear();
+// boolean &operator && 
+//  false: 0, -0,'', null, undefined
+// true:-1, 'hello",'false'
+let num4;
+if(num) {
+    console.log('true');
+}else{
+    console.log('false');
+}
+console.clear();
+// class & callbacks 
+
+class Counter{
+    constructor(){
+        this.counter =0;
+    }
+    increase(){
+        this.counter++;
+        console.log(this.counter);
+        if(this.counter %5 ===0){
+            console.log('stop');
+        }
+         
+        
+    }
+}
+
+const coolCounter = new Counter();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
+coolCounter.increase();
