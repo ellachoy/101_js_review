@@ -69,9 +69,7 @@ class Counter{
         console.log(this.counter);
         if(this.counter %5 ===0){
             console.log('stop');
-        }
-         
-        
+        }    
     }
 }
 
@@ -85,3 +83,4 @@ coolCounter.increase();
 coolCounter.increase();
 coolCounter.increase();
 coolCounter.increase();
+console.clear();
