@@ -11,7 +11,8 @@
         width:100px;
         height:100px;
         background-color:yellow;
-        margin-bottom:10px;
+         /* margin: 50px auto; */
+         margin:10px 0 20px 10px;
         text-align:center;
         
     }
@@ -30,6 +31,11 @@
     <div>8</div>
     <script>
         console.log('test');
+        const point= document.querySelector('.point');
+        point.addEventListener('click', ()=>{
+            console.log('click');
+            
+        })
     </script>
 </body>
 </html>
