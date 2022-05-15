@@ -35,5 +35,20 @@
             <button>Click me</button>
         </div>
     </div>
+    <script>
+        const outer = document.querySelector('.outer');
+        const middle = document.querySelector('.middle');
+        const button = document.querySelector('button');
+
+        outer.addEventListener('click', (event)=>{
+            console.log(`outer: ${event.currentTarget}, ${event.target}`);
+        });
+        middle.addEventListener('click', ()=>{
+           console.log(`middle: ${event.currentTarget}, ${event.target}`);  
+        });
+        button.addEventListener('click', event => {
+                console.log(`button1 ${event.currentTarget}, ${event.target}`);
+            });
+    </script>
 </body>
 </html>
